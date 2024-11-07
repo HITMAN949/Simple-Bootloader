@@ -1,0 +1,37 @@
+# Ignore binary files
+*.bin
+*.o
+*.elf
+
+# Ignore object files
+*.obj
+
+# Ignore assembly files compiled by NASM
+*.asm~  # Temporary assembly files
+
+# Ignore log files
+*.log
+
+# Ignore QEMU save files
+*.qcow2
+*.img
+
+# Ignore backup files
+*~ 
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled executables if applicable
+*.exe
+*.out
+
+# Ignore any IDE or editor files (VSCode, Sublime, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore environment files
+.env
